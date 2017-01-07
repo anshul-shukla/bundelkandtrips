@@ -15,8 +15,9 @@ class App extends Component {
           <div className="App-header">
             <div className="App-logo">B</div>
             <ul className="App-list">
-              <li><Link to="/about">About</Link></li>
               <li><Link to="/home">Home</Link></li>
+              <li><Link to="/about">About</Link></li>
+              <li><Link to="/contact">Contact</Link></li>
             </ul>
     
           </div>
@@ -24,7 +25,7 @@ class App extends Component {
              {this.props.children}
           </div>
           <footer>
-            
+            All rights are reserved.
 
           </footer>
         </div>

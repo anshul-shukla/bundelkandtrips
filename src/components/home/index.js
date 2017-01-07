@@ -21,7 +21,23 @@ class Home extends Component {
                     <img src={template1} height="250" className="templeImg"/>
                 </div>
                 <div className="experienceTextBox">
-                  Experience Orchha Temples
+                   Orchha Temples
+                </div>
+          </div>
+          <div className="experienceBox">
+                <div className="experienceImageBox">
+                    <img src={template1} height="250" className="templeImg"/>
+                </div>
+                <div className="experienceTextBox">
+                   Orchha Temples
+                </div>
+          </div>
+          <div className="experienceBox">
+                <div className="experienceImageBox">
+                    <img src={template1} height="250" className="templeImg"/>
+                </div>
+                <div className="experienceTextBox">
+                   Orchha Temples
                 </div>
           </div>
            <div className="experienceBox">
@@ -29,7 +45,7 @@ class Home extends Component {
                 <img src={template2} height="250" className="templeImg"/>
                 </div>
                 <div className="experienceTextBox">
-                  Experience Khajuraho Temples
+                   Khajuraho Temples
                 </div>
           </div>
           </div>
