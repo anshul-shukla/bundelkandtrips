@@ -7,7 +7,7 @@
 * ```npm install```
 * local run - ```npm start```
 * test run - ```npm test```
-
+* prod build - ```npm run build```
 Tech Stack Info -
 
 * Framework - react with redux.
