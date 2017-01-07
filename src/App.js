@@ -23,6 +23,10 @@ class App extends Component {
           <div className="App-intro">
              {this.props.children}
           </div>
+          <footer>
+            
+
+          </footer>
         </div>
       </MuiThemeProvider>
     );

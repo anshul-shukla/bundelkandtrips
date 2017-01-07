@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Router, Route, Link, browserHistory } from 'react-router';
 import template1 from './../../img/temple1.jpg';
-import template2 from './../../img/temple2.jpg';
+import template2 from './../../img/temple3.jpg';
 
 
 class Home extends Component {

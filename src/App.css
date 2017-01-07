@@ -100,6 +100,8 @@
     padding: 10px;
     margin: 10px;
     position: relative;
+    transition: all .2s ease-in-out;
+    font-size: 24px;
 }
 
 .experienceImageBox{
@@ -120,18 +122,20 @@
     height: 30px;
     margin: auto;
     text-align: center;
-    font-size: 24px;
     color: #795548;
     font-weight: 500;
+
 }
 
+.experienceBox:hover { 
+   font-size: 27px;
+}
 
-
-
-
-
-
-
+footer {
+    background: #f1f1f1;
+    height: 100px;
+    margin-top: 50px;
+}
 
 textarea:focus, input:focus, button:focus{
     outline: none;
