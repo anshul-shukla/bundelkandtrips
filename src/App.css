@@ -102,6 +102,37 @@
     position: relative;
 }
 
+.experienceImageBox{
+    text-align: center;
+    cursor: pointer;
+}
+
+.templeImg {
+  opacity: 0.5;
+}
+
+.experienceTextBox{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 30px;
+    margin: auto;
+    text-align: center;
+    font-size: 24px;
+    color: #795548;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
 textarea:focus, input:focus, button:focus{
     outline: none;
 }

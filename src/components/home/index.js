@@ -18,7 +18,7 @@ class Home extends Component {
           <div className="experience-header">Experience <span className="bundelkhand">Bundelkhand</span> </div>
           <div className="experienceBox">
                 <div className="experienceImageBox">
-                    <img src={template1} height="250"/>
+                    <img src={template1} height="250" className="templeImg"/>
                 </div>
                 <div className="experienceTextBox">
                   Experience Orchha Temples
@@ -26,7 +26,7 @@ class Home extends Component {
           </div>
            <div className="experienceBox">
                 <div className="experienceImageBox">
-                <img src={template2} height="250"/>
+                <img src={template2} height="250" className="templeImg"/>
                 </div>
                 <div className="experienceTextBox">
                   Experience Khajuraho Temples
