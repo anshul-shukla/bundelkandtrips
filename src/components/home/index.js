@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import { Router, Route, Link, browserHistory } from 'react-router'
+import { Router, Route, Link, browserHistory } from 'react-router';
+
 
 class Home extends Component {
   render() {
     return (
-      <div>
+      <div className="home">
         <div>
         <form>
             <input type="text" placeholder="Enter Hotel or place name in Bundelkhand e.g. Khajuraho"/>
