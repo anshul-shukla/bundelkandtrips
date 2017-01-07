@@ -12,13 +12,39 @@ class App extends Component {
     return (
       <MuiThemeProvider>
         <div className="App">
-          <div className="App-header">
-              <div className="logo">Github-Search</div>
-          </div>
-          <div className="App-intro">
-              {this.props.children}
-          </div>
+        <div className="App-header">
+          <div className="App-logo">B</div>
+          <ul className="App-list">
+            <li>Home</li>
+            <li>Login</li>
+          </ul>
         </div>
+        <div className="App-intro">
+          <form>
+            <input type="text" placeholder="Enter Hotel or place name in Bundelkhand e.g. Khajuraho"/>
+            <button type="submit">Search</button>
+          </form>
+        </div>
+        <div className="experience-placeholder">
+          <div className="experience-header">Experience <span className="bundelkhand">Bundelkhand</span> </div>
+          <div className="experienceBox">
+                <div className="experienceImageBox">
+                    <img src="img/temple1.jpg" />
+                </div>
+                <div className="experienceTextBox">
+                  Experience Orchha Temples
+                </div>
+          </div>
+           <div className="experienceBox">
+                <div className="experienceImageBox">
+                <img src="img/temple2.jpg" />
+                </div>
+                <div className="experienceTextBox">
+                  Experience Khajuraho Temples
+                </div>
+          </div>
+          </div>
+      </div>
       </MuiThemeProvider>
     );
   }
